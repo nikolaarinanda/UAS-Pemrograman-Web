@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Web Page</title>
+    <!-- Pemanggilan kode css -->
+    <link rel="stylesheet" href="client-side/css/style.css" />
+  </head>
+  <body>
+    <!-- Judul halaman -->
+    <h1>Input Data</h1>
+
+    <!-- Form input -->
+    <form id="myForm" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required /><br />
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required /><br />
+
+      <label for="subscribe">Subscribe to newsletter:</label>
+      <input type="checkbox" id="subscribe" name="subscribe" /><br />
+
+      <label for="gender">Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" /> Male
+      <input type="radio" id="female" name="gender" value="female" /> Female
+      <br />
+
+      <!-- Submit form -->
+      <button type="submit" name="create">Simpan</button>
+    </form>
+
+    <!-- Button  Read, Delete -->
+    <!-- <button type="submit" name="read">Tampilkan</button>
+    <button type="submit" name="delete">Hapus</button> -->
+
+    <!-- Pemanggilan kode js -->
+    <!-- <script src="client-side/js/script.js"></script> -->
+  </body>
+</html>
